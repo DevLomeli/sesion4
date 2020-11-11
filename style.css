@@ -10,9 +10,7 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 330px);
-
+  grid-template: repeat(2, 300px) / repeat(3, 1fr);
   width: 90%;
   margin: 1rem auto;
   gap: 1rem;
